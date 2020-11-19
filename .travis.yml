@@ -29,7 +29,7 @@ env:
   global:
     - secure: "w5CuQ8yiQ1U/zhHJ0SjiXkYGu/5AAYgWf7x3x+VkDnzOW2mXS/JiE9RKDMbVFd+wGr0OdFpVMB4NQVQBVLwafPtEHQsMrRaQTf6puHHNwlXoFKnzqF9adtpRId/8aGfbT+PbNsW4dtIAimlaKr48kmmImD/196Ef0RvVBj2oLurOzlDWErC2xdvPyC7E68y54gLD4OXrSr7f4KVPeJ4usbcqr8qc5OqlFyURL5gRPiDUl4BUkLXrmlk4huLMa1Z3xf5YcghPd5h4aF15gnBNJK4Cn3ZW1XX6Rm5/MVuOfUuTfBtm75I76qT4O1PD7SoekH2N5fldLPd5et2IyuPIsEjsC9tAajzeQeazWr52brntcdJuz4aaYbACjup8tpTHsefWILbvoR9Avpe0P2cNKarxkYNJ8HxzujTmxG7N1Wruu/1Cd3jKfWQDYCw40/AFkSb2QIVsCLCe4vjqVTCNRanYmbcxL47tQuT4yjHCVdQ9IHE7N/abvOeNFxk93aeH+bqRQfrxLfQm+FD6js40axfocwL4uP8b3EmxfoTEyvSPofyhnKMd6OUOUIt9mgQj1RPqFnoPHzodRWqBhQ/86DaK8ZSGYqgivddbjr0bSBu/SbV/Ig4L4MgNXuYu30FXXzvXLfZNO+uz95QsQeYqfe1lmQZVhpiCs4In8BGgH+4="
   matrix:
-    - PROXYSQL_IMAGE=percona/proxysql:2.0.14
+    - PROXYSQL_IMAGE=percona/proxysql:2.0
 
 before_script:
   # static analyze
